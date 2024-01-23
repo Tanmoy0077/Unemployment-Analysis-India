@@ -40,7 +40,7 @@ with st.sidebar.form("Get Input"):
 if not submitted:
     st.markdown('''### About the visualization :bar_chart:''')
     st.markdown('''- All the visualizations in this app are based on this [dataset](https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india) :balloon:''')
-    st.image('india.jpg', caption="India")
+    st.image('India.jpg', caption="India")
 
 
 if submitted:
